@@ -1,0 +1,110 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+.banner{
+    padding: 0110px ;
+    background: rgb(244,220,199);
+background: radial-gradient(circle, rgba(244,220,199,1) 0%, rgba(119,155,170,1) 100%);
+}
+
+.banner img{
+    width: 100%;
+    overflow: hidden; 
+}
+.course-list{
+    list-style: none;
+    display: inline-flex;
+}
+.course-list i{
+    font-size: 50px;
+    font-weight: 1000;
+    padding: 20px 0;
+    color: rgb(222, 96, 115);
+}
+.course-list li{
+    width: 20%;
+    padding: 20px 40px;
+    margin: 10px;
+    background-color: lightpink;
+}
+.course-list h3{
+    font-weight: 500;
+}
+.course-list p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.course-list a{
+    text-decoration: none;
+    color: rgb(43, 52, 226);
+}
+.lets-start {
+    padding: 10px;
+    background-color:black;
+}
+#accordion{
+    width: 100%;
+    padding: 20px;
+}
+#accordion .card-header{
+    background-color: rgb(222,96,115);
+}   
+#accordion .card-header button{
+   text-decoration: none;
+}
+#accordion .card-body{
+    background-color:lightpink;
+}
+.companies .slide{
+    padding: 20px;
+    background-color:lightpink ;
+}
+.companies .text{
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(222,96,115);
+}
+.companies .carousel-item{
+    width: 80%;
+    padding: 100px 50px;
+    align-items: center;
+    justify-items: center;
+}
+.companies .carousel-item img{
+    padding: 10px 20px;
+    size-adjust: 10;
+    width: 100%;
+}
+.row li{
+    list-style: none;
+}
+#suportCenter li{
+    padding: 5px 10px 0 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer .container li a{
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width:1024px){
+    .banner{
+        padding: 10px;
+    }
+    .course-list li{
+        width: 100%;
+        display: inline-block;
+    }
+    .course-list{
+        display: inline-block;
+    }
+    .projects{
+        padding: 2px;
+    }
+
+}
